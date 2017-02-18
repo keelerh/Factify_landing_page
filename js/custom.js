@@ -5,10 +5,22 @@ $('a').click(function(){
     return false;
 });
 
+$('a').css("color","white");
+
 $('a').mouseleave(function(){
-  $(this).css("color","gray")
+  $(this).css("color","white")
 });
 
 $('a').mouseenter(function(){
-  $(this).css("color","black")
+  $(this).css("color","lightgray")
+});
+
+$('.navbar').hide();
+
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 600){
+    $('.navbar').fadeIn();
+  } else {
+    $('.navbar').fadeOut();
+  }
 });

@@ -23,6 +23,7 @@ h6 {
 
 .topnav {
     font-size: 16px;
+    background: rgb(105,188,152);
 }
 
 .lead {
@@ -35,12 +36,13 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: silver;
+    background: gray;
 }
 
-.intro-header img {
-  height: 300px;
-}
+
+/*.intro-header img {
+  height: 150px;
+}*/
 
 .intro-message {
     position: relative;
@@ -53,7 +55,8 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
-    color: green;
+    font-family: 'Noticia Text', serif;
+    font-size: 80px;
 }
 
 .intro-divider {
