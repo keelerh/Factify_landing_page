@@ -36,13 +36,8 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: gray;
+    background: rgb(64, 65, 68);
 }
-
-
-/*.intro-header img {
-  height: 150px;
-}*/
 
 .intro-message {
     position: relative;
@@ -94,13 +89,6 @@ h6 {
 
 }
 
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -111,6 +99,20 @@ h6 {
     text-align: center;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-c {
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    text-align: center;
+    background: rgb(64, 65, 68);
+    color: rgb(105,188,152);
+}
+
+.col-md-12 {
+  height: 100%;
 }
 
 .content-section-b img {
@@ -126,72 +128,14 @@ h6 {
   padding: 30px;
 }
 
-
 .section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    margin-top: -10px;
-    margin-bottom: 40px;
-    border-top: 3px solid rgb(105,188,152);;
-}
-
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
-
-.banner ul {
-    margin-bottom: 0;
-}
-
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
-.contact {
-  text-align: right;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 footer {
-    padding: 50px 0;
+    padding: 30px 0;
     background-color: #f8f8f8;
 }
 

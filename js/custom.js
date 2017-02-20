@@ -12,7 +12,7 @@ $('a').mouseleave(function(){
 });
 
 $('a').mouseenter(function(){
-  $(this).css("color","lightgray")
+  $(this).css("color","#e7e7e7")
 });
 
 $('.navbar').hide();
@@ -23,4 +23,8 @@ $(window).scroll(function(){
   } else {
     $('.navbar').fadeOut();
   }
+});
+
+$(function() {
+    $('.item').matchHeight(options);
 });
