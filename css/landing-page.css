@@ -53,6 +53,7 @@ video#background-video {
   width: 100%;
   min-height: 100%;
   z-index: -100;
+  opacity: 0.5;
 }
 
 .intro-header {
@@ -60,37 +61,45 @@ video#background-video {
 }
 
 .intro-message {
-    position: relative;
+    /*position: relative;*/
     float: left;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    margin-top: 5%;
+    background: rgb(105,188,152);
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+}
+
+.intro-message img {
+  height: 100px;
+  float:left;
 }
 
 .intro-message > h1 {
-    margin: 0;
+    margin-top: 20px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
-    font-family: 'Noticia Text', serif;
-    font-size: 80px;
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 70px;
+    color: white;
+    letter-spacing: 3px;
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 20px;
 }
 
 @media(max-width:767px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
 
     .intro-message > h1 {
-        font-size: 3em;
+        font-size: 2.5em;
+    }
+
+    .intro-message img {
+      height: 60px;
+    }
+
+    .intro-message > h3 {
+      font-size: 1em;
     }
 
     ul.intro-social-buttons > li {
