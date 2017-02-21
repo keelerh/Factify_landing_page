@@ -18,7 +18,7 @@ $('a').mouseenter(function(){
 $('.navbar').hide();
 
 $(window).scroll(function(){
-  if ($(this).scrollTop() > 600){
+  if ($(this).scrollTop() > 10){
     $('.navbar').fadeIn();
   } else {
     $('.navbar').fadeOut();
