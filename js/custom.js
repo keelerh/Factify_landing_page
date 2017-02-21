@@ -24,3 +24,12 @@ $(window).scroll(function(){
     $('.navbar').fadeOut();
   }
 });
+
+$(window).resize(function resize(){
+  if ($(this).width() < 767){
+    return $('.info').removeClass('flex');
+  }
+  else {
+    $('.info').addClass('flex');
+  }
+})
