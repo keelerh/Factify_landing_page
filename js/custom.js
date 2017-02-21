@@ -17,6 +17,16 @@ $('a').mouseenter(function(){
 
 $('.navbar').hide();
 
+// setTimeout(function(){
+//   $('#background-video').play();
+// }, 10000);
+
+setTimeout(delayVideo, 2000);
+
+function delayVideo(){
+  $('#background-video').get(0).play();
+}
+
 $(window).scroll(function(){
   if ($(this).scrollTop() > 10){
     $('.navbar').fadeIn();
