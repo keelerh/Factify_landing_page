@@ -62,26 +62,34 @@ video#background-video {
 
 .intro-message {
     /*position: relative;*/
-    float: left;
+    text-align: center;
     margin-top: 5%;
-    background: rgb(105,188,152);
-    padding: 20px;
-    border: 1px solid #e7e7e7;
-    border-radius: 5px;
+    display: flex;
+}
+
+.intro {
+  background: rgba(64, 65, 68, 0.7);
+  color: white;
+  float: left;
+  margin-top: 60px;
+  padding: 10px 25px;
+  border: 1px;
+  border-radius: 5px;
 }
 
 .intro-message img {
   height: 100px;
-  float:left;
+  display: inline;
 }
 
 .intro-message > h1 {
-    margin-top: 20px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-family: 'Fjalla One', sans-serif;
     font-size: 70px;
     color: white;
     letter-spacing: 3px;
+    display: inline;
+    padding-left: 5px;
 }
 
 .intro-message > h3 {
@@ -101,21 +109,6 @@ video#background-video {
     .intro-message > h3 {
       font-size: 1em;
     }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-
 }
 
 .factify-section-a {
@@ -140,7 +133,7 @@ video#great-wall-video {
 }
 
 .factify-section-c img {
-  width: 100%;
+  width: 70%;
 }
 
 .about-us {
