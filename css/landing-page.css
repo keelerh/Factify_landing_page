@@ -29,6 +29,7 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 /*video#bgvid {
@@ -111,6 +112,11 @@ video#background-video {
     }
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 .factify-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -133,7 +139,7 @@ video#great-wall-video {
 }
 
 .factify-section-c img {
-  width: 70%;
+  width: 80%;
 }
 
 .about-us {
