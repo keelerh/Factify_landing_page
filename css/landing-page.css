@@ -24,6 +24,7 @@ h6 {
 .topnav {
     font-size: 16px;
     background: rgb(105,188,152);
+    border-bottom: none;
 }
 
 .lead {
