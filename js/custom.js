@@ -24,7 +24,3 @@ $(window).scroll(function(){
     $('.navbar').fadeOut();
   }
 });
-
-$(function() {
-    $('.item').matchHeight(options);
-});
