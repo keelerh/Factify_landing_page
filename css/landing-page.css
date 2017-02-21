@@ -130,9 +130,17 @@ video#background-video {
     border-bottom: 1px solid #e7e7e7;
 }
 
+video#great-wall-video {
+  width: 100%;
+}
+
 .factify-section-c {
     padding: 50px 0;
     background-color: #f8f8f8;
+}
+
+.factify-section-c img {
+  width: 100%;
 }
 
 .about-us {
